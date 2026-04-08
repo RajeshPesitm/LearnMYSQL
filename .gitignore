@@ -1,0 +1,28 @@
+# MySQL database dumps (common file extensions)
+
+*.sql.gz
+*.dump
+*.sql.zip
+
+# Local environment files (often contain DB credentials)
+.env
+.env.local
+.env.*.local
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+*.err
+
+# Backup folders or temporary files
+backup/
+tmp/
+*.bak
+
+# Ignore MySQL socket files or temp files (optional)
+*.sock
+*.pid
